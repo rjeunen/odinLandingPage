@@ -93,3 +93,20 @@ body{
     border: 3px #3882f6 solid;
     border-radius: 10px;
 }
+.containerQuote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 400px;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.quoteAuthor{
+    align-self: flex-end;
+    font-weight: 900;
+}
