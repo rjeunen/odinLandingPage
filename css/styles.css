@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.containerHeader{
+    background-color: #1f2937;
+    padding: 15px 100px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.containerLinks{
+    display: flex;
+    gap: 16px;
+}
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+}
+.links{
+    font-size: 18px;
+    color: #e5e7eb;
+    list-style-type: none;
+}
+.welcomeTitle{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.welcomeText{
+    font-size: 18px;
+    color: #e5e7eb;
+}
