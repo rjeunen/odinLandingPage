@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: Roboto, sans-serif;
+    font-family: "Times New Roman" Arial, Helvetica, sans-serif;
 }
 
 .containerHeader{
@@ -29,6 +29,14 @@ body{
     color: #e5e7eb;
     list-style-type: none;
 }
+.welcome{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.welcomeInfo{
+    width: 450px;
+}
 .welcomeTitle{
     font-size: 48px;
     color: #f9faf8;
@@ -37,4 +45,16 @@ body{
 .welcomeText{
     font-size: 18px;
     color: #e5e7eb;
+}
+.welcomeButton{
+    margin-top: 5px;
+    color: white;
+    background-color: #3882f6;
+    padding: 5px 25px;
+    border-radius: 10px;
+}
+.image{
+    width: 450px;
+    height: 150px;
+    background-color: darkgray;
 }
