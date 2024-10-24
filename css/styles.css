@@ -58,3 +58,38 @@ body{
     height: 150px;
     background-color: darkgray;
 }
+.containerInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.infoTitle{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding: 20px 0;
+}
+.containerInfoCards{
+    display: flex;
+    gap: 32px;
+    padding: 8px 0;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.cardText{
+    width: 150px;
+    text-align: center;
+}
+
+.cardImage{
+    width: 150px;
+    height: 150px;
+    border: 3px #3882f6 solid;
+    border-radius: 10px;
+}
